@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LEARNING JOURNEY
+        </title>
+        <style>
+              body {
+                font-family: Arial,sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.5px;
+               }
+            table {
+                border-collapse: collapse;
+                margin: auto;
+                width: 80%;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 10px gray;
+            }
+    th {
+        padding: 8px;
+        background-color: lightblue;
+        color: darkblue;
+        font-size:17px;
+        text-align: center;
+    }
+    td{
+        padding: 8px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    table, th, td {
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+}
+table th {
+    letter-spacing: 1px;
+}
+caption{
+    font-size: 24px;
+    color: darkblue;
+    text-align: center;
+}
+tbody tr:hover {
+    background-color: lightyellow;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.completed {
+    color: green;
+}
+#main-title {
+    text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+    <table>
+        <caption id="main-title">My Learning Progress</caption> 
+        <thead>
+            tbody td {
+                color: #333;
+            }
+    <tr>
+        <th>Topic</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th>Level</th>
+        <th>Platform</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Excel</td>
+        <td>Office</td>
+        <td class="completed">Completed</td>
+        <td>Basic</td>
+        <td>Microsoft Excel</td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>Web</td>
+        <td class="completed">Learning</td>
+        <td>Level 1</td>
+        <td>VS Code</td>
+    </tr>
+    <tr>
+        <td>Git & GitHub</td>
+        <td>Development Tools</td>
+        <td class="completed">Learning</td>
+        <td>Level 1</td>
+        <td>Google</td>
+    </tr>
+    <tr>
+        <td>Web Development</td>
+        <td>Web</td>
+        <td class="completed">Learning</td>
+        <td>Level 1</td>
+        <td>ChatGPT</td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>Web</td>
+        <td>Not started</td>
+        <td>Level 0</td>
+        <td>VS Code</td>
+    </tr>
+    <tr>
+            <td>CSS</td>
+            <td>Web</td>
+            <td class="completed">Learning</td>
+            <td>Level 1</td>
+            <td>VS Code</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">Total Topics: 6</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html> 
